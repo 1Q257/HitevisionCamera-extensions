@@ -55,4 +55,6 @@ class DragWindow:
 if __name__ == "__main__":
     window = DragWindow()
     window.run()
-    
+
+# pip install pyinstaller
+# https://blog.csdn.net/lynjan/article/details/81557215
