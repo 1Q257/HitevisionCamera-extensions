@@ -6,7 +6,7 @@ import win32gui as gui
 import win32con as con
 import time
 
-#等待TK启动
+#等待TK启动 5s
 time.sleep(5)
 
 #获取所有窗口句柄

@@ -1,5 +1,7 @@
+#DEMO
+#---MAIN-CODE---
+#预加载 & 变量预设 & TK声明
 import tkinter as tk
-from tkinter import Widget, messagebox
 import os
 print("鸿合展台第三方控件 | 版本 2021.11.20-22504")
 print("Powered By 老班长")
@@ -16,7 +18,7 @@ button1.pack()
 class DragWindow:
     def __init__(self):
         tk2.x, tk2.y = 0, 0
-        self.window_size = '256x128'
+        self.window_size = '128x64'
 
         # 设置隐藏窗口标题栏和任务栏图标
         tk2.overrideredirect(True)
@@ -25,7 +27,7 @@ class DragWindow:
         # 设置窗口大小、位置 长x宽+x+y
         tk2.geometry(f"{self.window_size}+1700+900")
         # 设定背景颜色
-        tk2.configure(bg="white")
+        tk2.configure(bg="blue")
 
         # 窗口移动事件
         tk2.bind("<B1-Motion>", self.move)
