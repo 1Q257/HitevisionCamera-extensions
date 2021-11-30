@@ -1,7 +1,14 @@
 #置顶Tk
+
+#import 预加载控件
 import tkinter as tk
 import win32gui as gui
 import win32con as con
+import time
+
+#等待TK启动
+time.sleep(5)
+
 #获取所有窗口句柄
 hwnd_title = {}
   
