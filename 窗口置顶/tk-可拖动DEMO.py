@@ -23,7 +23,7 @@ class DragWindow:
         # 设置隐藏窗口标题栏和任务栏图标
         tk2.overrideredirect(True)
         # 窗口透明度80%
-        tk2.attributes("-alpha", 0.2)
+        tk2.attributes("-alpha", 0.1)
         # 设置窗口大小、位置 长x宽+x+y
         tk2.geometry(f"{self.window_size}+1700+900")
         # 设定背景颜色
